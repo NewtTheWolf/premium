@@ -1,0 +1,24 @@
+{
+  "name": "Bot Join Server PremiumFalse",
+  "temp": "",
+  "event-type": "4",
+  "_id": "OdudG",
+  "actions": [
+    {
+      "server": "0",
+      "varName": "",
+      "info": "1",
+      "storage": "1",
+      "varName2": "ServerID",
+      "name": "Store Server Info"
+    },
+    {
+      "input": "false",
+      "format": "",
+      "filename": "premium-${tempVars(\"ServerID\")}.awoo",
+      "filepath": "./Database/premium/Server",
+      "filetask": "1",
+      "name": "File Control"
+    }
+  ]
+}
